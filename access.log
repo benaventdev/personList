@@ -1,0 +1,15 @@
+GET /info 200 107 - 3.067 ms
+GET /api/persons 200 219 - 2.206 ms
+GET /api/persons/3 200 53 - 0.643 ms
+POST /api/persons 200 44 - 2.197 ms
+::ffff:127.0.0.1 - - [24/Feb/2023:06:00:32 +0000] "POST /api/persons HTTP/1.1" 200 43
+POST /api/persons 200 46 - 2.198 ms
+POST /api/persons 200 45 - 2.209 ms -
+POST /api/persons 200 43 - 2.236 ms -
+GET /api/persons 200 219 - 2.279 ms -
+POST /api/persons 200 43 - 0.612 ms 43
+POST /api/persons 200 45 - 2.286 ms 45
+POST /api/persons 200 {"name":"adfdfds","number":"342143-12"}] - 2.200 ms
+POST /api/persons 200 46 - 2.184 ms {"name":"adfdfds","number":"342143-12"}
+POST /api/persons 200 46 - 1.837 ms {"name":"adfdfds","number":"342143-12"}
+GET / 404 139 - 2.084 ms {}
